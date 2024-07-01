@@ -1,5 +1,10 @@
 # Chatbot-for-Children-Allowance
 
+Το link του drive είναι:
+
+https://drive.google.com/drive/u/1/folders/13J69oDxtsRROkqiNg0FSHhqxSR3aTvYb
+
+
 Το chatbot έχει αναπτυχθεί με την χρήση του Rasa Framework.
 
 Το chatbot αφορά την διαδικασία "Επίδομα παιδιού".
@@ -21,3 +26,7 @@
 
 
 Το intent "Προθεσμία υποβολής" δεν γίνεται κατανοητό από το chatbot. Πετάει Unexpected Intent και επιστρέφει fallback.
+
+Σε συνδυασμό με το πάνω κάποιες φορές δεν αναγνωρίζει το intent "Καταβολή ποσού".
+
+Αυτό συμβαίνει γιατί τα δύο intents προσφέρουν πληροφορίες για προθεσμίες. Οπότε πολλές από τις λέξεις του χρήστη μπορεί να είναι ίδιες και για τα δύο intents με αποτέλεσμα το chatbot να μπερδεύεται.
